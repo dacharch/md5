@@ -1,8 +1,9 @@
 # md5
 import re 
 import hashlib
-filename= input("Enter Your File Name ")
-f = open(filename,"r") 
+import sys
+filename= sys.argv
+f = open(filename[1],"r") 
 data = f.read()
 data2 = re.split("\s",data)
 for x in data2:
