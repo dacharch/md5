@@ -7,10 +7,10 @@
  ```
 # How to use
 ```
-python3 md5.py
+python3 md5.py > filename
 ```
 ```
-python3 md5.py
+python3 md5.py | vim - 
 ```
 
 
